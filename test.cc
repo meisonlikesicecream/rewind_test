@@ -27,8 +27,8 @@ void testFunction(int x[max_loop], int y[max_loop]) {
   //#pragma HLS dataflow
 
   // Calls the main "rewind" loops
-  someFunction<0>(x);
-  someFunction<1>(y);
+  someFunction(x);
+  someFunction(y);
 
 
   // Uncomment the following to run the "rewind" loops directly in the top function
